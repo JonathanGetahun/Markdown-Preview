@@ -1,0 +1,57 @@
+#top {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  background-color: azure;
+  font-family: "Indie Flower", cursive;
+}
+
+
+.col-xs-9 {
+  /*   overflow-wrap: break-word; */
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+  #hop {
+    padding-left: 20%;
+  }
+}
+
+#hop {
+  padding-top: 40px;
+}
+
+#previewContain {
+  /*   display: inline-block; */
+  padding: 10px;
+  border-style: outset;
+  border-width: medium;
+  background-color: DarkSeaGreen;
+}
+
+#preview {
+  /*   display: inline-block; */
+  min-height: 100px;
+  border-style: bold;
+  border-width: 5px;
+  border-color: black;
+  width: 100%;
+  heigth: 100%;
+}
+
+#editorContain {
+  border-style: outset;
+  borderwidth: medium;
+  padding: 0px;
+}
+
+#editor {
+  min-height: 100px;
+  border-style: inset;
+  border-width: medium;
+  width: 100%;
+}
+
+#root {
+  background-color: DarkOliveGreen;
+}
